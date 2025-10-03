@@ -79,7 +79,7 @@ fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
 
 ### Lead Java Developer
 
-- **Experience:** [Java/J2EE](https://www.oracle.com/java/technologies/appmodel.html), [Kotlin](https://kotlinlang.org/docs/home.html), SQL/NoSQL (Postgres, MongoDB, Cassandra, Graph DB), Python, Ruby, [Chef](https://www.chef.io/), [Drone](https://drone.io/), Kubernetes containers, Cloud tech.
+- **Experience:** [Java/J2EE](https://www.oracle.com/java/technologies/appmodel.html), [Kotlin](https://kotlinlang.org/docs/home.html), SQL/NoSQL (Postgres, [MongoDB](https://www.mongodb.com/), [Cassandra](https://cassandra.apache.org/_/index.html), [Graph DB](https://graphdb.ontotext.com/)), Python, Ruby, [Chef](https://www.chef.io/), [Drone](https://drone.io/), [Kubernetes containers](https://kubernetes.io/docs/concepts/containers/), Cloud tech.
 - **Lifecycle:** At least one full-cycle implementation of a major project.
 
 ### Lead Engineer
