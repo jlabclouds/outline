@@ -116,7 +116,8 @@ static_resources:
 
 - **Responsibilities:**
     - Lead scrum teams
-    - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, [Spring Boot](https://spring.io/projects/spring-boot)/[Micronaut](https://micronaut.io/) [Run SpringBoot as Micronaut](https://guides.micronaut.io/latest/micronaut-spring-boot-maven-java.html)
+    - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, [Spring Boot](https://spring.io/projects/spring-boot)/[Micronaut](https://micronaut.io/)
+    - [Run SpringBoot as Micronaut](https://guides.micronaut.io/latest/micronaut-spring-boot-maven-java.html)
     - Build highly scalable distributed systems
     - Deep knowledge of domain and product features
 
