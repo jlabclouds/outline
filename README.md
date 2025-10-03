@@ -39,7 +39,7 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 ## Cart & Checkout
 
 - **Scope:** Online, brick-and-mortar, Shipt, Google Express; **critical impact on guest experience**
-- **Languages:** [Kotlin](https://kotlinlang.org/), Groovy, JAM
+- **Languages:** [Kotlin](https://kotlinlang.org/), [Groovy](https://groovy-lang.org/), [JAM](https://lets-jam.org/docs/jam/index.html)
 - **Frameworks:** [Micronaut](https://micronaut.io/), [Ratpack](https://ratpack.io/)
 - **Databases:** [Postgres](https://www.postgresql.org/), [Cassandra](https://cassandra.apache.org/)
 - **Events:** [Kafka](https://kafka.apache.org/)
@@ -54,7 +54,7 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
     flyway migrate
     ```
     3. Deploy via CI/CD (see [CI/CD & DevOps](#cicd--devops))
-    4. Monitor events with Kafka dashboard
+    4. Monitor events with [Kafka dashboard](https://grafana.com/grafana/dashboards/18276-kafka-dashboard/)
 
 **Example: Kotlin Service Endpoint**
 ```kotlin
