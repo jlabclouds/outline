@@ -125,7 +125,7 @@ static_resources:
 
 ## Tech Stack
 
-- **Languages & Frameworks:** [Kotlin](https://kotlinlang.org/docs/home.html), Java, Groovy, [Spring Boot](https://spring.io/projects/spring-boot), Micronaut, [http4k](https://www.http4k.org/), [KTOR](https://ktor.io/), Gradle, JavaScript, TypeScript, ReactJS, Junit, Spock, [KotlinTest](https://kotlinlang.org/api/core/kotlin-test/)
+- **Languages & Frameworks:** [Kotlin](https://kotlinlang.org/docs/home.html), [Java](https://www.oracle.com/java/technologies/appmodel.html), [Groovy](https://groovy-lang.org/), [Spring Boot](https://spring.io/projects/spring-boot), [Micronaut](https://micronaut.io/), [http4k](https://www.http4k.org/), [KTOR](https://ktor.io/), [Gradle](https://gradle.org/), JavaScript, TypeScript, ReactJS, [Junit](https://junit.org/), [Spock](https://github.com/spockframework/spock), [KotlinTest](https://kotlinlang.org/api/core/kotlin-test/)
 - **Event Streaming:** Kafka
 - **Databases:** Postgres, Cassandra, MongoDB, RocksDB, InfluxDB, ELK Stack, Exadata
 - **ML & Data:** [Vertex AI](https://cloud.google.com/vertex-ai), BigQueryML, Kubeflow, Cloud Composer, FastAPI, Flask
