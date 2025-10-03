@@ -86,7 +86,7 @@ fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
 
 - **Responsibilities:**
     - [Envoy](https://www.envoyproxy.io/) & [HAProxy](https://www.haproxy.org/) API Gateway management
-    - Sidecar Proxy Dev [Go](https://www.go.dev)
+    - Sidecar Proxy Dev-in house written in [GO](https://pkg.go.dev/github.com/googlecloudplatform/pgadapter/samples/sidecar-proxy)
     - Server Fleet Management: [Ansible](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6)
     - Control Plane: [Go](https://github.com/envoyproxy/go-control-plane), Kafka, Redis/MongoDB
     - CDN Strategy & Migration: [Akamai](https://www.akamai.com/), [Fastly](https://www.fastly.com/)
