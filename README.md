@@ -12,7 +12,7 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 4. [Engineering Roles](#engineering-roles)
     - [Lead Java Developer](#lead-java-developer)
     - [Lead Engineer](#lead-engineer)
-    - [Backend Lead Engineer](#lead-engineer---backend) [Fullstack Lead Engineer](#lead-engineer---fullstack)
+    - [Backend Lead Engineer](#lead-engineer---backend) 
     - [Fullstack Lead Engineer](#lead-engineer---fullstack)
 5. [Tech Stack](#tech-stack)
 6. [CI/CD & DevOps](#cicd--devops)
