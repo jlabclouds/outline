@@ -27,11 +27,11 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 
 - **Tech Focus:** [React.js](https://react.dev/), [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5), [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS), [JavaScript (ES6+)](https://developer.mozilla.org/en-US/docs/Web/JavaScript), Micro Frontend Architecture.
 - **State Management & Build Tools:** [Redux](https://redux.js.org/), [Webpack](https://webpack.js.org/), [Babel](https://babeljs.io/).
-- **Getting Started: (IN PROGRESS)**
-    1. Clone the repo: `git clone https://github.com/jlabclouds/outline.git`
-    2. Install dependencies: `npm install`
-    3. Start development server: `npm start`
-    4. Explore micro frontend modules under `/src/microfrontends`
+- **Getting Started: (IN PROGRESS**)**
+    1. Clone the repo: `git clone https://github.com/jlabclouds/outline.git` **
+    2. Install dependencies: `npm install` **
+    3. Start development server: `npm start` **
+    4. Explore micro frontend modules under `/src/microfrontends` **
     5. See [React Docs](https://react.dev/) for component patterns
 
 ---
