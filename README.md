@@ -12,8 +12,8 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 4. [Engineering Roles](#engineering-roles)
     - [Lead Java Developer](#lead-java-developer)
     - [Lead Engineer](#lead-engineer)
+    - [Backend Lead Engineer](#lead-engineer---backend) [Fullstack Lead Engineer](#lead-engineer---fullstack)
     - [Fullstack Lead Engineer](#lead-engineer---fullstack)
-    - [Backend Lead Engineer](#lead-engineer---backend)
 5. [Tech Stack](#tech-stack)
 6. [CI/CD & DevOps](#cicd--devops)
 7. [Metrics & Visualization](#metrics--visualizations)
@@ -105,6 +105,13 @@ static_resources:
       - name: envoy.filters.network.http_connection_manager
 ```
 
+### Lead Engineer - Backend
+
+- **Responsibilities:**
+    - Featurestore, Model ops, experimentation, monitoring, explainability, continuous improvement
+    - GCP, MLOps, scalable APIs, ML pipelines
+    - Deploy and monitor ML models in production
+
 ### Lead Engineer - Fullstack
 
 - **Responsibilities:**
@@ -112,13 +119,6 @@ static_resources:
     - [Java](https://www.java.com/), Kotlin, React, Spring Boot/Micronaut
     - Build highly scalable distributed systems
     - Deep knowledge of domain and product features
-
-### Lead Engineer - Backend
-
-- **Responsibilities:**
-    - Featurestore, Model ops, experimentation, monitoring, explainability, continuous improvement
-    - GCP, MLOps, scalable APIs, ML pipelines
-    - Deploy and monitor ML models in production
 
 ---
 
