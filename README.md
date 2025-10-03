@@ -45,10 +45,22 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 - **Events:** [Kafka](https://kafka.apache.org/)
 - **Architecture:** Microservices, multi-tenant
 - **Deployment Steps:**
-    1. Build service module: `./gradlew build`
-    2. Run database migrations: `flyway migrate`
+    1. **Build Service Module**
+    ```bash
+    ./gradlew build
+    ```
+    2. **Run Database Migrations**
+    ```bash
+    flyway migrate
+    ```
     3. Deploy via CI/CD (see [CI/CD & DevOps](#cicd--devops))
     4. Monitor events with Kafka dashboard
+
+**Example: Kotlin Service Endpoint**
+```kotlin
+@Get("/cart")
+fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
+```
 
 ---
 
@@ -81,6 +93,18 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
     - API Monitoring & Security: Implement solutions/tools
 - **Focus:** API gateways and microservice Kubernetes architectures, JVM-based services, high observability.
 
+**Example: API Gateway Config (Envoy)**
+```yaml
+static_resources:
+  listeners:
+  - name: listener_0
+    address:
+      socket_address: { address: 0.0.0.0, port_value: 8080 }
+    filter_chains:
+    - filters:
+      - name: envoy.filters.network.http_connection_manager
+```
+
 ### Lead Engineer - Fullstack
 
 - **Responsibilities:**
@@ -105,6 +129,16 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 - **Databases:** Postgres, Cassandra, MongoDB, RocksDB, InfluxDB, ELK Stack, Exadata
 - **ML & Data:** [Vertex AI](https://cloud.google.com/vertex-ai), BigQueryML, Kubeflow, Cloud Composer, FastAPI, Flask
 
+**Example: Spring Boot Application**
+```java
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
+```
+
 ---
 
 ## CI/CD & DevOps
@@ -116,6 +150,15 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
     2. Automated build/test via CI pipeline
     3. Container deploy to Kubernetes
     4. Monitoring via dashboards (see below)
+ 
+**Example: Drone CI Pipeline**
+```yaml
+pipeline:
+  build:
+    image: gradle:latest
+    commands:
+      - ./gradlew build
+```
 
 ---
 
@@ -124,9 +167,22 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 - **Dashboards:** [Grafana](https://grafana.com/)
 - **Log Aggregation:** Logstash, Kibana
 - **Steps:**
-    1. Set up Grafana dashboard for metrics
-    2. Aggregate logs with [ELK Stack](https://www.elastic.co/what-is/elk-stack)
-    3. Monitor system health and alerting
+    1. Set up Grafana dashboard
+       - Connect to data sources for metrics.
+    2. Aggregate logs with Logstash & Kibana (ELK Stack).
+       - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
+    4. Monitor system health and alerting
+       - Configure alerting rules.
+
+**Example: Grafana Dashboard JSON**
+```json
+{
+  "dashboard": {
+    "title": "System Metrics",
+    "panels": [{ "type": "graph", "targets": [{ "expr": "cpu_usage" }] }]
+  }
+}
+```
 
 ---
 
@@ -134,6 +190,21 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 
 - **Cloud:** [Google Cloud Platform (GCP)](https://cloud.google.com/)
 - **Elastic Compute:** [Kubernetes](https://kubernetes.io/)
+
+**Example: Kubernetes Deployment**
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-app
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: app
+        image: my-app:latest
+```
 
 ---
 
@@ -144,6 +215,13 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 - **Automation:** Everything-as-code, operational excellence, canary/A/B testing, high observability/logs/metrics
 - **Approach:** Proactive issue triage, edge computing, elastic infrastructure, agile ceremonies
 - **Learning:** Experiment with new tech, continuous improvement
+
+**Example: Canary Deployment Annotation**
+```yaml
+metadata:
+  annotations:
+    deploymentstrategy: canary
+```
 
 ---
 
