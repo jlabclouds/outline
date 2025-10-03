@@ -7,8 +7,8 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 ## Table of Contents
 
 1. [Frontend & UI](#frontend--ui)
-2. [AFCC (Apply for Circle Card)](#afcc-apply-for-circle-card)
-3. [Cart & Checkout](#cart--checkout)
+2. [Cart & Checkout](#cart--checkout)
+3. [AFCC (Apply for Circle Card)](#afcc-apply-for-circle-card)
 4. [Engineering Roles](#engineering-roles)
     - [Lead Java Developer](#lead-java-developer)
     - [Lead Engineer](#lead-engineer)
