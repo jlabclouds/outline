@@ -56,7 +56,7 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
     3. Deploy via CI/CD (see [CI/CD & DevOps](#cicd--devops))
     4. Monitor events with [Kafka dashboard](https://grafana.com/grafana/dashboards/18276-kafka-dashboard/)
 
-**Example: Kotlin Service Endpoint**
+**Example: [Kotlin](https://kotlinlang.org/docs/home.html) Service Endpoint**
 ```kotlin
 @Get("/cart")
 fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
@@ -79,7 +79,7 @@ fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
 
 ### Lead Java Developer
 
-- **Experience:** Java/J2EE, Kotlin, SQL/NoSQL (Postgres, MongoDB, Cassandra, Graph DB), Python, Ruby, [Chef](https://www.chef.io/), [Drone](https://drone.io/), Kubernetes containers, Cloud tech.
+- **Experience:** [Java/J2EE](https://www.oracle.com/java/technologies/appmodel.html), [Kotlin](https://kotlinlang.org/docs/home.html), SQL/NoSQL (Postgres, MongoDB, Cassandra, Graph DB), Python, Ruby, [Chef](https://www.chef.io/), [Drone](https://drone.io/), Kubernetes containers, Cloud tech.
 - **Lifecycle:** At least one full-cycle implementation of a major project.
 
 ### Lead Engineer
@@ -116,7 +116,7 @@ static_resources:
 
 - **Responsibilities:**
     - Lead scrum teams
-    - [Java](https://www.java.com/), Kotlin, React, Spring Boot/Micronaut
+    - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, Spring Boot/Micronaut
     - Build highly scalable distributed systems
     - Deep knowledge of domain and product features
 
@@ -124,7 +124,7 @@ static_resources:
 
 ## Tech Stack
 
-- **Languages & Frameworks:** Kotlin, Java, Groovy, [Spring Boot](https://spring.io/projects/spring-boot), Micronaut, [http4k](https://www.http4k.org/), [KTOR](https://ktor.io/), Gradle, JavaScript, TypeScript, ReactJS, Junit, Spock, KotlinTest
+- **Languages & Frameworks:** [Kotlin](https://kotlinlang.org/docs/home.html), Java, Groovy, [Spring Boot](https://spring.io/projects/spring-boot), Micronaut, [http4k](https://www.http4k.org/), [KTOR](https://ktor.io/), Gradle, JavaScript, TypeScript, ReactJS, Junit, Spock, [KotlinTest](https://kotlinlang.org/api/core/kotlin-test/)
 - **Event Streaming:** Kafka
 - **Databases:** Postgres, Cassandra, MongoDB, RocksDB, InfluxDB, ELK Stack, Exadata
 - **ML & Data:** [Vertex AI](https://cloud.google.com/vertex-ai), BigQueryML, Kubeflow, Cloud Composer, FastAPI, Flask
