@@ -19,7 +19,7 @@
 ## Lead Java Dev
 - Experience in:
 - Java/ J2EE, Kotlin, SQL/NoSQL (Postgre, MongoDB, Cassandra, graph structure, etc) Py, Ruby, Chef, Drone, Kubernetes containers, Cloud tech, etc
-**one full cycle implementation**
+- **one full cycle implementation**
 
 ## Lead Engineer
 - Key responsibilities:
