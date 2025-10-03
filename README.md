@@ -115,7 +115,7 @@ static_resources:
 ### Lead Engineer - Fullstack
 
 - **Responsibilities:**
-    - Lead scrum teams
+    - Lead [scrum teams](https://www.atlassian.com/agile/scrum)
     - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, [Spring Boot](https://spring.io/projects/spring-boot)/[Micronaut](https://micronaut.io/)
     - [Run SpringBoot as Micronaut](https://guides.micronaut.io/latest/micronaut-spring-boot-maven-java.html)
     - Build highly scalable distributed systems
