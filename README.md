@@ -36,17 +36,6 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
 
 ---
 
-## AFCC (Apply for Circle Card)
-
-- **Purpose:** Evaluates viability, maintainability, financials, forecasting, lifecycle management, and total cost of ownership of services.
-- **How it works:**  
-  1. Submit service details via AFCC portal.
-  2. Automated evaluation pipeline checks core criteria.
-  3. Output includes lifecycle, cost, and maintainability score.
-- **Learn more:** [Service Evaluation Best Practices](https://martinfowler.com/bliki/EvaluationCriteria.html)
-
----
-
 ## Cart & Checkout
 
 - **Scope:** Online, brick-and-mortar, Shipt, Google Express; **critical impact on guest experience**
@@ -60,6 +49,17 @@ A comprehensive overview of engineering roles, responsibilities, tech stack, and
     2. Run database migrations: `flyway migrate`
     3. Deploy via CI/CD (see [CI/CD & DevOps](#cicd--devops))
     4. Monitor events with Kafka dashboard
+
+---
+
+## AFCC (Apply for Circle Card)
+
+- **Purpose:** Evaluates viability, maintainability, financials, forecasting, lifecycle management, and total cost of ownership of services.
+- **How it works:**  
+  1. Submit service details via AFCC portal.
+  2. Automated evaluation pipeline checks core criteria.
+  3. Output includes lifecycle, cost, and maintainability score.
+- **Learn more:** [Service Evaluation Best Practices](https://martinfowler.com/bliki/EvaluationCriteria.html)
 
 ---
 
