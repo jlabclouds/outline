@@ -126,7 +126,7 @@ static_resources:
 ## Tech Stack
 
 - **Languages & Frameworks:** [Kotlin](https://kotlinlang.org/docs/home.html), [Java](https://www.oracle.com/java/technologies/appmodel.html), [Groovy](https://groovy-lang.org/), [Spring Boot](https://spring.io/projects/spring-boot), [Micronaut](https://micronaut.io/), [http4k](https://www.http4k.org/), [KTOR](https://ktor.io/), [Gradle](https://gradle.org/), JavaScript, TypeScript, ReactJS, [Junit](https://junit.org/), [Spock](https://github.com/spockframework/spock), [KotlinTest](https://kotlinlang.org/api/core/kotlin-test/)
-- **Event Streaming:** Kafka
+- **Event Streaming:** [Kafka](https://www.confluent.io/learn/event-streaming/#when-to-use-event-streaming-vs-batch-processing), [GCP](https://cloud.google.com/products/managed-service-for-apache-kafka?hl=en)
 - **Databases:** Postgres, Cassandra, MongoDB, RocksDB, InfluxDB, ELK Stack, Exadata
 - **ML & Data:** [Vertex AI](https://cloud.google.com/vertex-ai), [BigQueryML](https://www.cloudskillsboost.google/course_templates/626), [Kubeflow](https://cloud.google.com/discover/what-is-kubeflow?hl=en), [Cloud Composer](https://cloud.google.com/composer), [FastAPI](https://fastapi.tiangolo.com/), Flask: [VS](https://learn.microsoft.com/en-us/visualstudio/python/learn-flask-visual-studio-step-01-project-solution?view=vs-2022), [Jinja-VS](), [VSC](https://code.visualstudio.com/docs/python/tutorial-flask), [Flask](https://palletsprojects.com/)
 
