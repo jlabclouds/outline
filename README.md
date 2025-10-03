@@ -88,7 +88,7 @@ fun getCart(): HttpResponse<Cart> = HttpResponse.ok(cartService.fetchCart())
     - [Envoy](https://www.envoyproxy.io/) & [HAProxy](https://www.haproxy.org/) API Gateway management
     - Sidecar Proxy Dev [Go](https://www.go.dev)
     - Server Fleet Management: [Ansible](https://docs.redhat.com/en/documentation/red_hat_ansible_automation_platform/2.6)
-    - Control Plane: Go, Kafka, Redis/MongoDB
+    - Control Plane: [Go](https://github.com/envoyproxy/go-control-plane), Kafka, Redis/MongoDB
     - CDN Strategy & Migration: [Akamai](https://www.akamai.com/), [Fastly](https://www.fastly.com/)
     - API Monitoring & Security: Implement solutions/tools
 - **Focus:** API gateways and microservice Kubernetes architectures, JVM-based services, high observability.
