@@ -109,7 +109,7 @@ static_resources:
 
 - **Responsibilities:**
     - [Featurestore](https://jfrog.com/blog/what-is-a-feature-store-in-ml-and-do-i-need-one/), [Model ops](https://www.modelop.com/ai-governance-software), experimentation, monitoring, explainability, continuous improvement
-    - GCP, MLOps, scalable APIs, ML pipelines
+    - GCP, [MLOps](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning), scalable APIs, [ML pipelines](https://developers.google.com/machine-learning/managing-ml-projects/pipelines)
     - Deploy and monitor ML models in production
 
 ### Lead Engineer - Fullstack
