@@ -41,7 +41,7 @@
 - Strong domain-specific knowledge regarding Target’s Tech capabilities and key comps products and diff features
 - Experience in building highly scalable distributed systems
 
-## Lead Engineer
+## Lead Engineer **Note**
 - Diverse, inclusive, and collaborative culture
 - Robust and distributed micro services k8 and event-based architectures Kafka with mature ci/cd pipelines vela
 - Code as craft with a desire to solve complex engineering problems
