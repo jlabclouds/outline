@@ -108,7 +108,7 @@ static_resources:
 ### Lead Engineer - Backend
 
 - **Responsibilities:**
-    - Featurestore, Model ops, experimentation, monitoring, explainability, continuous improvement
+    - [Featurestore](https://jfrog.com/blog/what-is-a-feature-store-in-ml-and-do-i-need-one/), [Model ops](https://www.modelop.com/ai-governance-software), experimentation, monitoring, explainability, continuous improvement
     - GCP, MLOps, scalable APIs, ML pipelines
     - Deploy and monitor ML models in production
 
@@ -116,7 +116,7 @@ static_resources:
 
 - **Responsibilities:**
     - Lead scrum teams
-    - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, Spring Boot/Micronaut
+    - [Java](https://www.java.com/), [Kotlin](https://kotlinlang.org/docs/home.html), React, [Spring Boot](https://spring.io/projects/spring-boot)/[Micronaut](https://micronaut.io/) [Run SpringBoot as Micronaut](https://guides.micronaut.io/latest/micronaut-spring-boot-maven-java.html)
     - Build highly scalable distributed systems
     - Deep knowledge of domain and product features
 
